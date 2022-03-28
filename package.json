@@ -1,0 +1,22 @@
+{
+  "name": "municipalidad-lujan-san-luis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matias-Rondinella/Municipalidad---Lujan---San-Luis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matias-Rondinella/Municipalidad---Lujan---San-Luis/issues"
+  },
+  "homepage": "https://github.com/Matias-Rondinella/Municipalidad---Lujan---San-Luis#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
