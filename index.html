@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,30 +31,37 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mi Municipio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="">Salud</a>
+                            <a class="dropdown-item" href="">Deportes</a>                  
+                            <a class="dropdown-item" href="">Educación</a>
+                            <a class="dropdown-item" href="">Espacio Público</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Turismo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="">Alojamientos</a>
+                            <a class="dropdown-item" href="">Actividades</a>                  
+                            <a class="dropdown-item" href="">Reserva Natural</a>
+                            <a class="dropdown-item" href="">Fiestas Culturales</a>
+                            <a class="dropdown-item" href="">Gastronomia y Comercios</a>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="views/nav/boletin.html" aria-expanded="false">
+                        Boletin Oficial
+                        </a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
                 </div>
             </div>
         </nav>
@@ -62,7 +69,100 @@
     <!------------------------        CIERRE NAVBAR         ---------------------------->
 
 
-    <!-----------------------           Bootstrap 5.1         ----------------------------->
+    <!------------------------   INICIO SUBSECCION HEADER   ---------------------------->
+    <div class="subseccionHeader">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </div>
+    <!------------------------   CIERRE SUBSECCION HEADER   ---------------------------->
+
+
+    <!-------------------  INICIO CONTENIDO SITIO -------------------->
+    <div class="container-fluid cuerpoSitio col-lg-12 col-xs-12">
+        <!-------------------  INICIO COLUMNA CONTENIDO -------------------->
+        <div class="contenidoSitio col-lg-8 col-xs-8">
+            <!-------------------  INICIO CARROUSEL -------------------->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carrouselA.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carrouselB.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carrouselC.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-------------------  CIERRE CARROUSEL -------------------->
+
+
+            <!------------- INICIO CUADRICULA IMÁGENES ----------------->
+            <div class="contenidoSitio-imgs">
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <!-------------  CIERRE CUADRICULA IMÁGENES ---------------->
+
+
+            <!-------------------  INICIO ICONOS DIRECTOS -------------------->
+            <div class="iconosDirectos">
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <!-------------------  CIERRE ICONOS DIRECTOS -------------------->
+
+
+
+            <!-------------------  INICIO PUBLICIDAD -------------------->
+            <div class="bannerPubli">
+                <img src="" alt="">
+            </div>
+            <!-------------------  CIERRE PUBLICIDAD -------------------->
+        </div>
+        <!-------------------  CIERRE COLUMNA CONTENIDO -------------------->
+
+
+        <!-------------------  INICIO SIDEBAR -------------------->
+        <div class="barraDerecha col-lg-4 col-xs-4">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><img src="" alt=""></button>
+            </form>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <!-------------------  CIERRE SIDEBAR -------------------->
+    </div>
+
+
+    <!-----------------------          Bootstrap 5.1       ----------------------------->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
