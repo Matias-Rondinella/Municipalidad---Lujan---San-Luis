@@ -1,10 +1,12 @@
 {
   "name": "municipalidad-lujan-san-luis",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+   
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,10 @@
     "url": "https://github.com/Matias-Rondinella/Municipalidad---Lujan---San-Luis/issues"
   },
   "homepage": "https://github.com/Matias-Rondinella/Municipalidad---Lujan---San-Luis#readme",
-  "dependencies": {
-    "node-sass": "^7.0.1"
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
   }
 }
