@@ -7887,3 +7887,7 @@ html {
 
 .cuerpoSitio {
   display: flex; }
+
+@media only screen and (max-width: 768px) {
+  .disNoMob {
+    display: none; } }
