@@ -29,7 +29,7 @@
       @include border-top-radius($card-inner-border-radius);
     }
 
-    &:last-child  {
+    &:last-child {
       border-bottom-width: 0;
       @include border-bottom-radius($card-inner-border-radius);
     }
@@ -56,7 +56,7 @@
 }
 
 .card-subtitle {
-  margin-top: -$card-title-spacer-y * .5;
+  margin-top: -$card-title-spacer-y * 0.5;
   margin-bottom: 0;
 }
 
@@ -86,7 +86,9 @@
   border-bottom: $card-border-width solid $card-border-color;
 
   &:first-child {
-    @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
+    @include border-radius(
+      $card-inner-border-radius $card-inner-border-radius 0 0
+    );
   }
 }
 
@@ -97,19 +99,20 @@
   border-top: $card-border-width solid $card-border-color;
 
   &:last-child {
-    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
+    @include border-radius(
+      0 0 $card-inner-border-radius $card-inner-border-radius
+    );
   }
 }
-
 
 //
 // Header navs
 //
 
 .card-header-tabs {
-  margin-right: -$card-cap-padding-x * .5;
+  margin-right: -$card-cap-padding-x * 0.5;
   margin-bottom: -$card-cap-padding-y;
-  margin-left: -$card-cap-padding-x * .5;
+  margin-left: -$card-cap-padding-x * 0.5;
   border-bottom: 0;
 
   @if $nav-tabs-link-active-bg != $card-bg {
@@ -121,8 +124,8 @@
 }
 
 .card-header-pills {
-  margin-right: -$card-cap-padding-x * .5;
-  margin-left: -$card-cap-padding-x * .5;
+  margin-right: -$card-cap-padding-x * 0.5;
+  margin-left: -$card-cap-padding-x * 0.5;
 }
 
 // Card image
@@ -151,7 +154,6 @@
 .card-img-bottom {
   @include border-bottom-radius($card-inner-border-radius);
 }
-
 
 //
 // Card groups
@@ -212,5 +214,79 @@
         }
       }
     }
+  }
+}
+
+// MIS ESTILOS CARDS //
+
+.cardAccesoCont {
+  display: flex;
+  padding: 15px;
+  .cardAccesoServ {
+    box-shadow: 0px 0px 10px 0px #114f95;
+    border: 1px solid rgb(44, 126, 202);
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+    img {
+      width: 90%;
+    }
+  }
+
+  .cardAccesoSust {
+    border: 1px solid rgb(89, 202, 44);
+    box-shadow: 0px 0px 10px 0px #369511;
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+    img {
+      width: 65%;
+    }
+  }
+
+  .cardAccesoInclu {
+    box-shadow: 0px 0px 10px 0px #beca17;
+    border: 1px solid rgb(218, 231, 36);
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+    img {
+      width: 90%;
+    }
+  }
+
+  .cardAccesoCult {
+    box-shadow: 0px 0px 10px 0px #d83c20;
+    border: 1px solid rgb(241, 40, 40);
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+  }
+}
+
+.cardAcceso-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .pServ {
+    font-size: 15px;
+    color: #114f95;
+  }
+  .pSust {
+    font-size: 15px;
+    color: #369511;
+  }
+  .pInclu {
+    font-size: 15px;
+    color: #beca17;
+  }
+  .pCult {
+    font-size: 15px;
+    color: #d83c20;
   }
 }

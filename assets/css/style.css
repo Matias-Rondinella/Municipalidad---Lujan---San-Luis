@@ -3504,6 +3504,62 @@ textarea.form-control-lg {
         .card-group > .card:not(:first-child) .card-footer {
           border-bottom-left-radius: 0; } }
 
+.cardAccesoCont {
+  display: flex;
+  padding: 15px; }
+  .cardAccesoCont .cardAccesoServ {
+    box-shadow: 0px 0px 10px 0px #114f95;
+    border: 1px solid #2c7eca;
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px; }
+    .cardAccesoCont .cardAccesoServ img {
+      width: 90%; }
+  .cardAccesoCont .cardAccesoSust {
+    border: 1px solid #59ca2c;
+    box-shadow: 0px 0px 10px 0px #369511;
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px; }
+    .cardAccesoCont .cardAccesoSust img {
+      width: 65%; }
+  .cardAccesoCont .cardAccesoInclu {
+    box-shadow: 0px 0px 10px 0px #beca17;
+    border: 1px solid #dae724;
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px; }
+    .cardAccesoCont .cardAccesoInclu img {
+      width: 90%; }
+  .cardAccesoCont .cardAccesoCult {
+    box-shadow: 0px 0px 10px 0px #d83c20;
+    border: 1px solid #f12828;
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 40%;
+    margin: 10px; }
+
+.cardAcceso-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .cardAcceso-body .pServ {
+    font-size: 15px;
+    color: #114f95; }
+  .cardAcceso-body .pSust {
+    font-size: 15px;
+    color: #369511; }
+  .cardAcceso-body .pInclu {
+    font-size: 15px;
+    color: #beca17; }
+  .cardAcceso-body .pCult {
+    font-size: 15px;
+    color: #d83c20; }
+
 .accordion-button {
   position: relative;
   display: flex;
@@ -7808,6 +7864,14 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+.fontMiMunicipio {
+  font-size: 25px;
+  margin-top: 25px;
+  color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  font-weight: 800; }
 
 * {
   margin: 0px;
