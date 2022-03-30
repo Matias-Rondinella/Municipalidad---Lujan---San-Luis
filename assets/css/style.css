@@ -7873,9 +7873,17 @@ textarea.form-control-lg {
   justify-content: center;
   font-weight: 800; }
 
+.barraDerecha {
+  padding: 20px; }
+  .barraDerecha h4, .barraDerecha .h4 {
+    padding-top: 10px; }
+
 * {
   margin: 0px;
   padding: 0px; }
 
 html {
   font-size: 62.5%; }
+
+.cuerpoSitio {
+  display: flex; }
