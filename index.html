@@ -21,17 +21,19 @@
     <header class="row">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="" alt="">Municipalidad de Luján 
-                <br>
-                <h5>Provincia de San Luis, Argentina</h5>
+                <a class="navbar-brand navBar-logo" href="#" style="width: 30%;" ><img src="assets/img/logo.png" alt="" style="width: 15%;">
+                    <div class="navBar-logo__text">
+                        <h1>Municipalidad de Luján</h1>
+                        <h5>Provincia de San Luis, Argentina</h5>
+                    </div>                
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBar-ul">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,12 +73,21 @@
 
     <!------------------------   INICIO SUBSECCION HEADER   ---------------------------->
     <div class="subseccionHeader">
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem, ipsum dolor.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <img src="assets/img/muniBanner2.jpg" alt="">
     </div>
     <!------------------------   CIERRE SUBSECCION HEADER   ---------------------------->
 
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold">Centered hero</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+          </div>
+        </div>
+      </div>
 
     <!-------------------  INICIO CONTENIDO SITIO -------------------->
     <div class="container-fluid cuerpoSitio col-lg-12 col-xs-12">
@@ -106,57 +117,23 @@
             </div>
             <!-------------------  CIERRE CARROUSEL -------------------->
 
-            <!-------------------  INICIO ACCESOS CARDS -------------------->
-            <p class="fontMiMunicipio">
-                Mi Municipio
-            </p>
-            <div class="cardAccesoCont">                
-                <div class="card cardAccesoServ">     
-                    <a href="">
-                        <div class="card-body cardAcceso-body">
-                            <img src="assets/img/iconServicios.svg" alt="">
-                            <p class="pServ">Servicios</p>
-                        </div>
-                    </a>               
-                    
-                </div>
-                <div class="card cardAccesoSust">                    
-                    <div class="card-body cardAcceso-body">
-                        <img src="assets/img/iconResiduos.svg" alt="">
-                        <p class="pSust">Sustentabilidad</p>
+            <!------------------------        INICIO DE HERO        ---------------------------->
+            <div class="container col-xxl-8 px-4 py-5 subseccionHeader-bg">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                     </div>
-                </div>
-                <div class="card cardAccesoInclu">                    
-                    <div class="card-body cardAcceso-body">
-                        <img src="assets/img/iconInclu.svg" alt="">
-                        <p class="pInclu">Luján inclusivo</p>
+                    <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
                     </div>
-                </div>
-                <div class="card cardAccesoCult">                    
-                    <div class="card-body cardAcceso-body">
-                        <img src="assets/img/iconCult.svg" alt="">
-                        <p class="pCult">Cultura</p>
                     </div>
                 </div>
             </div>
-            
-            <!-------------------  CIERRE ACCESOS CARDS -------------------->
-
-
-            <!------------- INICIO CUADRICULA TALLERES ----------------->
-            <div class="contenidoSitio-imgs">
-                <p class="fontMiMunicipio">Capacitaciones y Talleres</p>                
-                <div>
-                    <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
-                    <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
-                </div>
-                <div>
-                    <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
-                    <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
-                </div>                
-            </div>
-            <!-------------  CIERRE CUADRICULA TALLERES ---------------->
-
+            <!------------------------        CIERRE DE HERO        ---------------------------->
 
             <!-------------------  INICIO PUBLICIDAD -------------------->
             <div class="bannerPubli">
@@ -169,10 +146,6 @@
 
         <!-------------------  INICIO SIDEBAR -------------------->
         <div class="barraDerecha col-lg-4 col-xs-4 disNoMob">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"><img src="assets/img/lupa.svg" alt="" style="width: 40%;"></button>
-            </form>
             <div>
                 <h4>Mirá las últimas novedades</h4>
                 <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -220,7 +193,19 @@
                 <a href="" class="btn btn-primary"><p>Ver más novedades</p></a>
             </div>
             <div>
-
+                <!------------- INICIO CUADRICULA TALLERES ----------------->
+                <div class="contenidoSitio-imgs">
+                    <p class="fontMiMunicipio">Capacitaciones y Talleres</p>                
+                    <div>
+                        <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
+                        <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
+                        <a href=""><img src="assets/img/talleres.jpeg" alt="" style="width: 40%;"></a>
+                    </div>                
+                </div>
+                <!-------------  CIERRE CUADRICULA TALLERES ---------------->
             </div>
             <div>
 
@@ -234,6 +219,40 @@
         </div>
         <!-------------------  CIERRE SIDEBAR -------------------->
     </div>
+    <!-------------------  INICIO ACCESOS CARDS -------------------->
+    <p class="fontMiMunicipio">
+        Mi Municipio
+    </p>
+    <div class="cardAccesoCont">                
+        <div class="card cardAccesoServ">     
+            <a href="">
+                <div class="card-body cardAcceso-body">
+                    <img src="assets/img/iconServicios.svg" alt="">
+                    <p class="pServ">Servicios</p>
+                </div>
+            </a>               
+            
+        </div>
+        <div class="card cardAccesoSust">                    
+            <div class="card-body cardAcceso-body">
+                <img src="assets/img/iconResiduos.svg" alt="">
+                <p class="pSust">Sustentabilidad</p>
+            </div>
+        </div>
+        <div class="card cardAccesoInclu">                    
+            <div class="card-body cardAcceso-body">
+                <img src="assets/img/iconInclu.svg" alt="">
+                <p class="pInclu">Luján inclusivo</p>
+            </div>
+        </div>
+        <div class="card cardAccesoCult">                    
+            <div class="card-body cardAcceso-body">
+                <img src="assets/img/iconCult.svg" alt="">
+                <p class="pCult">Cultura</p>
+            </div>
+        </div>
+    </div>        
+    <!-------------------  CIERRE ACCESOS CARDS -------------------->
 
 
     <!-----------------------          Bootstrap 5.1       ----------------------------->

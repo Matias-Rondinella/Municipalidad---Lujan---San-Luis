@@ -3378,6 +3378,17 @@ textarea.form-control-lg {
   .navbar-dark .navbar-text a:focus {
     color: #fff; }
 
+.navBar-logo {
+  display: flex; }
+  .navBar-logo .navBar-logo__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.navBar-ul {
+  width: 100%;
+  justify-content: flex-end; }
+
 .card {
   position: relative;
   display: flex;
@@ -7873,10 +7884,13 @@ textarea.form-control-lg {
   justify-content: center;
   font-weight: 800; }
 
+.subseccionHeader.subseccionHeader-bg {
+  background-image: url("../img/muniBanner2.jpg"); }
+
 .barraDerecha {
-  padding: 20px; }
+  padding: 0px 20px; }
   .barraDerecha h4, .barraDerecha .h4 {
-    padding-top: 10px; }
+    font-size: 22px; }
 
 * {
   margin: 0px;
