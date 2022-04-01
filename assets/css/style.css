@@ -2993,7 +2993,7 @@ textarea.form-control-lg {
   display: block; }
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3378,16 +3378,30 @@ textarea.form-control-lg {
   .navbar-dark .navbar-text a:focus {
     color: #fff; }
 
-.navBar-logo {
-  display: flex; }
-  .navBar-logo .navBar-logo__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-
-.navBar-ul {
-  width: 100%;
-  justify-content: flex-end; }
+header {
+  position: fixed;
+  background-color: rgba(38, 118, 199, 0.192);
+  z-index: 1000; }
+  header .navBar-logo {
+    display: flex; }
+    header .navBar-logo img {
+      width: 15%;
+      height: 15%; }
+    header .navBar-logo .navBar-logo__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white; }
+  header .navBar-ul {
+    width: 100%;
+    justify-content: flex-end; }
+    header .navBar-ul .navBar-li .navBar-li__link {
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      padding-right: 15px; }
+      header .navBar-ul .navBar-li .navBar-li__link:hover {
+        color: grey; }
 
 .card {
   position: relative;

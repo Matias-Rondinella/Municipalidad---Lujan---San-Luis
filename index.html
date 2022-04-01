@@ -21,7 +21,7 @@
     <header class="row">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand navBar-logo" href="#" style="width: 30%;" ><img src="assets/img/logo.png" alt="" style="width: 15%;">
+                <a class="navbar-brand navBar-logo" href="#" style="width: 30%;" ><img src="assets/img/logo.png" alt="">
                     <div class="navBar-logo__text">
                         <h1>Municipalidad de Luján</h1>
                         <h5>Provincia de San Luis, Argentina</h5>
@@ -32,11 +32,11 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBar-ul">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <li class="nav-item navBar-li">
+                    <a class=" active navBar-li__link" aria-current="page" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown navBar-li">
+                        <a class="dropdown-toggle navBar-li__link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Mi Municipio
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,8 +46,8 @@
                             <a class="dropdown-item" href="">Espacio Público</a>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown navBar-li">
+                        <a class="dropdown-toggle navBar-li__link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Turismo
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,8 +58,8 @@
                             <a class="dropdown-item" href="">Gastronomia y Comercios</a>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="views/nav/boletin.html" aria-expanded="false">
+                    <li class="nav-item navBar-li">
+                        <a class="navBar-li__link" href="views/nav/boletin.html" aria-expanded="false">
                         Boletin Oficial
                         </a>
                     </li>
@@ -73,10 +73,12 @@
 
     <!------------------------   INICIO SUBSECCION HEADER   ---------------------------->
     <div class="subseccionHeader">
-        <img src="assets/img/muniBanner2.jpg" alt="">
+        <img src="assets/img/muniBanner2.jpg" alt="" style="width: 100%;">
     </div>
     <!------------------------   CIERRE SUBSECCION HEADER   ---------------------------->
 
+
+    <!------------------------------   INICIO HERO 1   ----------------------------------->
     <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
         <h1 class="display-5 fw-bold">Centered hero</h1>
@@ -87,7 +89,43 @@
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
           </div>
         </div>
-      </div>
+    </div>
+    <!------------------------------   CIERRE HERO 1   ----------------------------------->
+
+    <!-------------------  INICIO ACCESOS CARDS -------------------->
+    <p class="fontMiMunicipio">
+        Mi Municipio
+    </p>
+    <div class="cardAccesoCont">                
+        <div class="card cardAccesoServ">     
+            <a href="">
+                <div class="card-body cardAcceso-body">
+                    <img src="assets/img/iconServicios.svg" alt="">
+                    <p class="pServ">Servicios</p>
+                </div>
+            </a>               
+            
+        </div>
+        <div class="card cardAccesoSust">                    
+            <div class="card-body cardAcceso-body">
+                <img src="assets/img/iconResiduos.svg" alt="">
+                <p class="pSust">Sustentabilidad</p>
+            </div>
+        </div>
+        <div class="card cardAccesoInclu">                    
+            <div class="card-body cardAcceso-body">
+                <img src="assets/img/iconInclu.svg" alt="">
+                <p class="pInclu">Luján inclusivo</p>
+            </div>
+        </div>
+        <div class="card cardAccesoCult">                    
+            <div class="card-body cardAcceso-body">
+                <img src="assets/img/iconCult.svg" alt="">
+                <p class="pCult">Cultura</p>
+            </div>
+        </div>
+    </div>        
+    <!-------------------  CIERRE ACCESOS CARDS -------------------->
 
     <!-------------------  INICIO CONTENIDO SITIO -------------------->
     <div class="container-fluid cuerpoSitio col-lg-12 col-xs-12">
@@ -117,7 +155,7 @@
             </div>
             <!-------------------  CIERRE CARROUSEL -------------------->
 
-            <!------------------------        INICIO DE HERO        ---------------------------->
+            <!------------------------        INICIO DE HERO 2       ---------------------------->
             <div class="container col-xxl-8 px-4 py-5 subseccionHeader-bg">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
@@ -133,7 +171,7 @@
                     </div>
                 </div>
             </div>
-            <!------------------------        CIERRE DE HERO        ---------------------------->
+            <!------------------------        CIERRE DE HERO 2       ---------------------------->
 
             <!-------------------  INICIO PUBLICIDAD -------------------->
             <div class="bannerPubli">
@@ -219,41 +257,8 @@
         </div>
         <!-------------------  CIERRE SIDEBAR -------------------->
     </div>
-    <!-------------------  INICIO ACCESOS CARDS -------------------->
-    <p class="fontMiMunicipio">
-        Mi Municipio
-    </p>
-    <div class="cardAccesoCont">                
-        <div class="card cardAccesoServ">     
-            <a href="">
-                <div class="card-body cardAcceso-body">
-                    <img src="assets/img/iconServicios.svg" alt="">
-                    <p class="pServ">Servicios</p>
-                </div>
-            </a>               
-            
-        </div>
-        <div class="card cardAccesoSust">                    
-            <div class="card-body cardAcceso-body">
-                <img src="assets/img/iconResiduos.svg" alt="">
-                <p class="pSust">Sustentabilidad</p>
-            </div>
-        </div>
-        <div class="card cardAccesoInclu">                    
-            <div class="card-body cardAcceso-body">
-                <img src="assets/img/iconInclu.svg" alt="">
-                <p class="pInclu">Luján inclusivo</p>
-            </div>
-        </div>
-        <div class="card cardAccesoCult">                    
-            <div class="card-body cardAcceso-body">
-                <img src="assets/img/iconCult.svg" alt="">
-                <p class="pCult">Cultura</p>
-            </div>
-        </div>
-    </div>        
-    <!-------------------  CIERRE ACCESOS CARDS -------------------->
 
+    <!-----------------------    INICIO FOOTER    --------------------->
     <div class="container">
         <footer class="py-5">
             <div class="row">
@@ -313,6 +318,7 @@
             </div>
         </footer>
     </div>
+    <!-----------------------    CIERRE FOOTER    --------------------->
 
 
     <!-----------------------          Bootstrap 5.1       ----------------------------->
