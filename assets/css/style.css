@@ -3380,8 +3380,11 @@ textarea.form-control-lg {
 
 header {
   position: fixed;
-  background-color: rgba(38, 118, 199, 0.192);
-  z-index: 1000; }
+  background-color: #6ec1e4;
+  z-index: 1000;
+  max-height: 70px; }
+  header nav {
+    max-height: 70px; }
   header .navBar-logo {
     display: flex; }
     header .navBar-logo img {
@@ -3391,7 +3394,14 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      color: white; }
+      color: white;
+      padding-left: 15px;
+      position: relative;
+      top: 4px; }
+      header .navBar-logo .navBar-logo__text h1, header .navBar-logo .navBar-logo__text .h1 {
+        font-size: 20px; }
+      header .navBar-logo .navBar-logo__text h5, header .navBar-logo .navBar-logo__text .h5 {
+        font-size: 12px; }
   header .navBar-ul {
     width: 100%;
     justify-content: flex-end; }
@@ -3404,6 +3414,7 @@ header {
         color: grey; }
 
 .card {
+  justify-content: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3531,18 +3542,18 @@ header {
 
 .cardAccesoCont {
   display: flex;
-  padding: 15px; }
+  padding: 50px 60px; }
   .cardAccesoCont .cardAccesoServ {
     box-shadow: 0px 0px 10px 0px #114f95;
-    border: 1px solid #2c7eca;
     border-radius: 1.25rem;
     align-items: center;
     width: 40%;
     margin: 10px; }
+    .cardAccesoCont .cardAccesoServ a {
+      text-decoration: none; }
     .cardAccesoCont .cardAccesoServ img {
       width: 90%; }
   .cardAccesoCont .cardAccesoSust {
-    border: 1px solid #59ca2c;
     box-shadow: 0px 0px 10px 0px #369511;
     border-radius: 1.25rem;
     align-items: center;
@@ -3552,7 +3563,6 @@ header {
       width: 65%; }
   .cardAccesoCont .cardAccesoInclu {
     box-shadow: 0px 0px 10px 0px #beca17;
-    border: 1px solid #dae724;
     border-radius: 1.25rem;
     align-items: center;
     width: 40%;
@@ -3561,7 +3571,6 @@ header {
       width: 90%; }
   .cardAccesoCont .cardAccesoCult {
     box-shadow: 0px 0px 10px 0px #d83c20;
-    border: 1px solid #f12828;
     border-radius: 1.25rem;
     align-items: center;
     width: 40%;
@@ -4641,7 +4650,8 @@ header {
   color: #212529; }
 
 .carousel {
-  position: relative; }
+  position: relative;
+  padding-top: 70px; }
 
 .carousel.pointer-event {
   touch-action: pan-y; }
@@ -7891,12 +7901,33 @@ header {
     display: none !important; } }
 
 .fontMiMunicipio {
-  font-size: 25px;
+  font-size: 50px;
   margin-top: 25px;
-  color: cornflowerblue;
+  color: #6ec1e4;
   display: flex;
   justify-content: center;
   font-weight: 800; }
+
+.fontTalleres {
+  font-size: 25px;
+  margin-top: 25px;
+  color: #6ec1e4;
+  display: flex;
+  justify-content: center;
+  font-weight: 800; }
+
+.carousel-text {
+  font-size: 30px;
+  color: black;
+  background-color: #6e89e4aa;
+  margin: 0px 150px;
+  margin-bottom: 15px; }
+
+.carousel-p {
+  font-size: 25px;
+  color: black;
+  background-color: #2d50b0aa;
+  margin: 0px 150px; }
 
 .barraDerecha {
   padding: 0px 20px; }
