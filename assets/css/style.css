@@ -7934,6 +7934,22 @@ header {
   .barraDerecha h4, .barraDerecha .h4 {
     font-size: 22px; }
 
+.container-footer {
+  background-color: #6ec1e4;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+  .container-footer .footer-datos {
+    display: flex;
+    justify-content: space-around; }
+    .container-footer .footer-datos .footer-datos__telefonos h5, .container-footer .footer-datos .footer-datos__telefonos .h5 {
+      font-size: 20px;
+      color: white; }
+    .container-footer .footer-datos ul {
+      font-size: 13px; }
+      .container-footer .footer-datos ul li {
+        color: white !important; }
+
 * {
   margin: 0px;
   padding: 0px; }

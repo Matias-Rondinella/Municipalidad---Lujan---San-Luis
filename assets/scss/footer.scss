@@ -1,0 +1,20 @@
+.container-footer{
+    background-color: #6ec1e4;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    .footer-datos{
+        display: flex;
+        justify-content: space-around;
+        .footer-datos__telefonos h5{
+            font-size: 20px;
+            color: white;
+        }
+        ul{
+            font-size: 13px;
+            li{
+                color: white !important;
+            }
+        }
+    }
+}
