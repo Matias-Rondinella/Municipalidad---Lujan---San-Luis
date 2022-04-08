@@ -7945,10 +7945,18 @@ header {
     .container-footer .footer-datos .footer-datos__telefonos h5, .container-footer .footer-datos .footer-datos__telefonos .h5 {
       font-size: 20px;
       color: white; }
-    .container-footer .footer-datos ul {
+    .container-footer .footer-datos .footer-datos__ul {
       font-size: 13px; }
-      .container-footer .footer-datos ul li {
-        color: white !important; }
+      .container-footer .footer-datos .footer-datos__ul .footer-datos__li {
+        color: white; }
+
+.redes-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .redes-ul .redes-img {
+    width: 64px;
+    height: 64px; }
 
 * {
   margin: 0px;

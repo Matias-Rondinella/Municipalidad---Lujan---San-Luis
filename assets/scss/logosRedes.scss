@@ -1,0 +1,9 @@
+.redes-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .redes-img{
+        width: 64px;
+        height: 64px;
+    }
+}
