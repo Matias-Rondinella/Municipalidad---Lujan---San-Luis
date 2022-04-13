@@ -351,11 +351,9 @@ header{
       padding-left: 15px;
       position: relative;
       top: 4px;
+      font-family: 'Satisfy', cursive;
       h1{
-        font-size: 20px;
-      }
-      h5{
-        font-size: 12px;
+        font-size: 27px;
       }
     }
   }
@@ -363,12 +361,13 @@ header{
     width: 100%;
     justify-content: flex-end;
     .navBar-li .navBar-li__link{
+      font-family: 'Nunito', sans-serif;
       font-size: 20px;
       color: white;
       text-decoration: none;
       padding-right: 15px;
       &:hover{
-        color: grey;
+        color: rgb(255, 196, 3);
       }
     }
   }

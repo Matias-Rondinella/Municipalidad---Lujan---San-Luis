@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Municipalidad de Luján - San Luis - Argentina</title>
 
+    <!----------------   Google Fonts  ----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
     <!---------------   Mis Estilos   ----------------->
     <link rel="stylesheet" href="assets/css/style.css">    
 
@@ -122,40 +127,44 @@
         </div>
     </span>
 
-    <!-------------------  INICIO ACCESOS CARDS -------------------->
-    <p class="fontMiMunicipio">
-        Mi Municipio
-    </p>
-    <div class="cardAccesoCont">                
-        <div class="card cardAccesoServ">     
-            <a href="">
+    <div>
+        <!-------------------  INICIO ACCESOS CARDS -------------------->
+        <p class="fontMiMunicipio padT">
+            Mi Municipio
+        </p>
+        <div class="cardAccesoCont padBl">                
+            <div class="card cardAccesoServ col-lg-2">     
+                <a href="">
+                    <div class="card-body cardAcceso-body">
+                        <img src="assets/img/iconServicios.svg" alt="">
+                        <p class="pServ">Servicios</p>
+                    </div>
+                </a>               
+                
+            </div>
+            <div class="card cardAccesoSust col-lg-2">                    
                 <div class="card-body cardAcceso-body">
-                    <img src="assets/img/iconServicios.svg" alt="">
-                    <p class="pServ">Servicios</p>
+                    <img src="assets/img/iconResiduos.svg" alt="">
+                    <p class="pSust">Sustentabilidad</p>
                 </div>
-            </a>               
-            
-        </div>
-        <div class="card cardAccesoSust">                    
-            <div class="card-body cardAcceso-body">
-                <img src="assets/img/iconResiduos.svg" alt="">
-                <p class="pSust">Sustentabilidad</p>
             </div>
-        </div>
-        <div class="card cardAccesoInclu">                    
-            <div class="card-body cardAcceso-body">
-                <img src="assets/img/iconInclu.svg" alt="">
-                <p class="pInclu">Luján inclusivo</p>
+            <div class="card cardAccesoInclu col-lg-2">                    
+                <div class="card-body cardAcceso-body">
+                    <img src="assets/img/iconInclu.svg" alt="">
+                    <p class="pInclu">Luján inclusivo</p>
+                </div>
             </div>
-        </div>
-        <div class="card cardAccesoCult">                    
-            <div class="card-body cardAcceso-body">
-                <img src="assets/img/iconCult.svg" alt="">
-                <p class="pCult">Cultura</p>
+            <div class="card cardAccesoCult col-lg-2">                    
+                <div class="card-body cardAcceso-body">
+                    <img src="assets/img/iconCult.svg" alt="">
+                    <p class="pCult">Cultura</p>
+                </div>
             </div>
-        </div>
-    </div>        
-    <!-------------------  CIERRE ACCESOS CARDS -------------------->
+        </div>        
+        <!-------------------  CIERRE ACCESOS CARDS -------------------->
+    </div>
+    
+    <hr>
 
     <!-------------------  INICIO CONTENIDO SITIO -------------------->
     <div class="container-fluid cuerpoSitio col-lg-12 col-xs-12">
@@ -195,12 +204,6 @@
                 </div>
             </div>
             <!------------------------        CIERRE DE HERO 2       ---------------------------->
-
-            <!-------------------  INICIO PUBLICIDAD -------------------->
-            <div class="bannerPubli">
-                <img src="" alt="">
-            </div>
-            <!-------------------  CIERRE PUBLICIDAD -------------------->
         </div>
         <!-------------------  CIERRE COLUMNA CONTENIDO -------------------->
 
@@ -281,6 +284,8 @@
         <!-------------------  CIERRE SIDEBAR -------------------->
     </div>
 
+    <hr>
+
     <!------------------------------   INICIO HERO 1   ----------------------------------->
     <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="assets/img/iconInclu.svg" alt="">
@@ -295,6 +300,12 @@
     </div>
     <!------------------------------   CIERRE HERO 1   ----------------------------------->
 
+    <!-------------------  INICIO PUBLICIDAD -------------------->
+    <div class="bannerPubli">
+        <img src="" alt="">
+    </div>
+    <!-------------------  CIERRE PUBLICIDAD -------------------->
+    
     <!-----------------------    INICIO FOOTER    --------------------->
     <div class="container-footer">
         <footer class="py-5">

@@ -1,3 +1,7 @@
+// font-family: 'Lobster', cursive;
+// font-family: 'Satisfy', cursive;
+// font-family: 'Nunito', sans-serif;
+
 @import "titles";
 @import "barraDerecha";
 @import "footer";
@@ -21,3 +25,15 @@ html {
     display: none;
   }
 }
+
+.padT{
+  padding-top: 50px;
+}
+
+.padBm{
+  padding-bottom: 50px;
+}
+.padBl{
+  padding-bottom: 100px;
+}
+
