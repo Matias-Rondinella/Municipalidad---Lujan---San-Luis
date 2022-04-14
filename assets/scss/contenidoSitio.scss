@@ -1,0 +1,25 @@
+.cuerpoSitio {
+    display: flex;
+    background-color: #f3f3f391;
+    padding: 3.5rem;
+  }
+
+.contenidoSitio-talleres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .contenidoSitio-talleres__AB{
+        display: flex;
+        justify-content: space-around;
+        a img{
+            width: 316px;
+        }
+    }
+    .contenidoSitio-talleres__CD{
+        display: flex;
+        justify-content: space-around;
+        a img{
+            width: 316px;
+        }
+    }
+}

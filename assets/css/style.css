@@ -3398,7 +3398,7 @@ header {
       padding-left: 15px;
       position: relative;
       top: 4px;
-      font-family: 'Satisfy', cursive; }
+      font-family: 'Lobster', cursive; }
       header .navBar-logo .navBar-logo__text h1, header .navBar-logo .navBar-logo__text .h1 {
         font-size: 27px; }
   header .navBar-ul {
@@ -7871,8 +7871,9 @@ header {
   font-weight: 800; }
 
 .fontTalleres {
-  font-size: 25px;
-  margin-top: 25px;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #6ec1e4;
   display: flex;
   justify-content: center;
@@ -7890,7 +7891,7 @@ header {
   margin: 0px 150px; }
 
 .barraDerecha {
-  padding: 0px 20px; }
+  padding: 0px 0px 0px 20px; }
   .barraDerecha h4, .barraDerecha .h4 {
     font-size: 22px; }
 
@@ -7918,15 +7919,32 @@ header {
     width: 64px;
     height: 64px; }
 
+.cuerpoSitio {
+  display: flex;
+  background-color: #f3f3f391;
+  padding: 3.5rem; }
+
+.contenidoSitio-talleres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .contenidoSitio-talleres .contenidoSitio-talleres__AB {
+    display: flex;
+    justify-content: space-around; }
+    .contenidoSitio-talleres .contenidoSitio-talleres__AB a img {
+      width: 316px; }
+  .contenidoSitio-talleres .contenidoSitio-talleres__CD {
+    display: flex;
+    justify-content: space-around; }
+    .contenidoSitio-talleres .contenidoSitio-talleres__CD a img {
+      width: 316px; }
+
 * {
   margin: 0px;
   padding: 0px; }
 
 html {
   font-size: 62.5%; }
-
-.cuerpoSitio {
-  display: flex; }
 
 @media only screen and (max-width: 768px) {
   .disNoMob {

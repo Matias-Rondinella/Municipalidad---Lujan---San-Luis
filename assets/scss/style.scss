@@ -6,6 +6,7 @@
 @import "barraDerecha";
 @import "footer";
 @import "logosRedes";
+@import "contenidoSitio";
 
 * {
   margin: 0px;
@@ -16,9 +17,6 @@ html {
   font-size: 62.5%;
 }
 
-.cuerpoSitio {
-  display: flex;
-}
 
 @media only screen and (max-width: 768px) {
   .disNoMob {
