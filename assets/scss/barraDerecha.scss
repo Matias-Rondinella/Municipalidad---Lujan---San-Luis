@@ -3,4 +3,15 @@
   h4 {
     font-size: 22px;
   }
+  .btn-novedades{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .bannerPubli .bannerPubli-carousel{
+    padding-top: 30px;
+    .bannerPubli-carousel__img{
+      width: 85%;
+    }
+  }
 }

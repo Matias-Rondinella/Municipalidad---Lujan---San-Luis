@@ -3412,6 +3412,11 @@ header {
       padding-right: 15px; }
       header .navBar-ul .navBar-li .navBar-li__link:hover {
         color: #ffc403; }
+    header .navBar-ul .navBar-li__ul {
+      font-family: 'Nunito', sans-serif;
+      font-size: 15px;
+      color: white;
+      background-color: #e2cf00; }
 
 .card {
   justify-content: center;
@@ -3544,7 +3549,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 50px; }
+  padding: 30px 50px 15px 50px; }
   .cardAccesoCont .cardAccesoServ {
     box-shadow: 0px 0px 10px 0px #114f95;
     border-radius: 1.25rem;
@@ -7871,9 +7876,9 @@ header {
   font-weight: 800; }
 
 .fontTalleres {
-  font-size: 35px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 45px;
   color: #6ec1e4;
   display: flex;
   justify-content: center;
@@ -7894,6 +7899,14 @@ header {
   padding: 0px 0px 0px 20px; }
   .barraDerecha h4, .barraDerecha .h4 {
     font-size: 22px; }
+  .barraDerecha .btn-novedades {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; }
+  .barraDerecha .bannerPubli .bannerPubli-carousel {
+    padding-top: 30px; }
+    .barraDerecha .bannerPubli .bannerPubli-carousel .bannerPubli-carousel__img {
+      width: 85%; }
 
 .container-footer {
   background-color: #6ec1e4;
