@@ -7952,6 +7952,21 @@ header {
     .contenidoSitio-talleres .contenidoSitio-talleres__CD a img {
       width: 316px; }
 
+.rowsColor {
+  margin: 15px 100px 15px 100px; }
+  .rowsColor .rowsColorA {
+    background-color: #26cad0;
+    height: 15px; }
+  .rowsColor .rowsColorB {
+    background-color: #de4527;
+    height: 15px; }
+  .rowsColor .rowsColorC {
+    background-color: #19df44;
+    height: 15px; }
+  .rowsColor .rowsColorD {
+    background-color: #cbea1b;
+    height: 15px; }
+
 * {
   margin: 0px;
   padding: 0px; }
