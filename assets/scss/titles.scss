@@ -16,19 +16,21 @@
   font-weight: 800;
 }
 
-  
-.carousel-text{
-  font-size: 30px;
-  color: black;
-  margin: 0px 150px;
-  margin-bottom: 15px;
+.carousel-titles{
+  width: 90%;
+  height: 380px;
+  z-index: 999;
+  .carousel-text{
+    font-size: 30px;
+    color: black;
+    background-color: #2c87ffd2;
+      }
+  .carousel-p{
+    font-size: 20px;
+    color: black;
+    background-color: #2c87ffd2;
+  }
 }
-.carousel-p{
-  font-size: 25px;
-  color: black;
-  margin: 0px 150px;
-}
-
 
 
 

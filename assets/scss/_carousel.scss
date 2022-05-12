@@ -203,13 +203,10 @@
 
 .carousel-caption {
   position: absolute;
-  right: (100% - $carousel-caption-width) * .5;
   bottom: $carousel-caption-spacer;
-  left: (100% - $carousel-caption-width) * .5;
   padding-top: $carousel-caption-padding-y;
   padding-bottom: $carousel-caption-padding-y;
   color: $carousel-caption-color;
-  text-align: center;
 }
 
 // Dark mode carousel
@@ -228,3 +225,6 @@
     color: $carousel-dark-caption-color;
   }
 }
+
+
+
