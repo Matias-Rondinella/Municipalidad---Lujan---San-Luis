@@ -3382,7 +3382,9 @@ header {
   position: fixed;
   background-color: #009ee2;
   z-index: 1000;
-  max-height: 70px; }
+  max-height: 70px;
+  width: 100%;
+  opacity: 1; }
   header nav {
     max-height: 70px; }
   header .navBar-logo {
@@ -3417,14 +3419,6 @@ header {
       font-size: 15px;
       color: white;
       background-color: #e2cf00; }
-
-@keyframes scroll-height {
-  0% {
-    height: 7rem; }
-  50% {
-    height: 7.2rem; }
-  100% {
-    height: 6.2rem; } }
 
 .card {
   justify-content: center;
@@ -4679,8 +4673,7 @@ header {
   color: #212529; }
 
 .carousel {
-  position: relative;
-  padding-top: 70px; }
+  position: relative; }
 
 .carousel.pointer-event {
   touch-action: pan-y; }
@@ -7988,9 +7981,6 @@ header {
 
 html {
   font-size: 62.5%; }
-
-header {
-  width: 100%; }
 
 @media only screen and (max-width: 768px) {
   .disNoMob {
