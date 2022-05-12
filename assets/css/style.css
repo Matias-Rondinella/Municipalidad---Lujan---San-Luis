@@ -3401,8 +3401,6 @@ header {
       position: relative;
       top: 4px;
       font-family: 'Lobster', cursive; }
-      header .navBar-logo .navBar-logo__text h1, header .navBar-logo .navBar-logo__text .h1 {
-        font-size: 27px; }
   header .navBar-ul {
     width: 100%;
     justify-content: flex-end; }
@@ -4752,9 +4750,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-right: 15%;
   margin-bottom: 1rem;
-  margin-left: 15%;
   list-style: none; }
   .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
@@ -4762,8 +4758,6 @@ header {
     width: 30px;
     height: 3px;
     padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
     background-color: #fff;
@@ -7958,22 +7952,28 @@ header {
   margin: 15px 100px 15px 100px; }
   .rowsColor .rowsColorA {
     background-color: #26cad0;
-    height: 15px; }
+    height: 5px; }
   .rowsColor .rowsColorB {
     background-color: #de4527;
-    height: 15px; }
+    height: 5px; }
   .rowsColor .rowsColorC {
     background-color: #19df44;
-    height: 15px; }
+    height: 5px; }
   .rowsColor .rowsColorD {
     background-color: #cbea1b;
-    height: 15px; }
+    height: 5px; }
 
 .navAnimation {
   animation-name: navAnimation;
   animation-delay: 0.3s;
   animation-duration: 0.3s;
   transition: 0.5s; }
+
+.navContentAnimation {
+  animation-name: navContentAnimation;
+  animation-delay: 0.3s;
+  animation-duration: 0.5s;
+  transition: 1s; }
 
 * {
   margin: 0px;
