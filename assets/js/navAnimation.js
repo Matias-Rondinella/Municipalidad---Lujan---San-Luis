@@ -12,7 +12,6 @@ window.onscroll = function () {
         navAnimation.style.opacity = '1';
         navAnimation.style.backgroundColor = '#009ee2';
         navContentAnimation.style.fontSize = '25px';
-        
     } 
 
 }

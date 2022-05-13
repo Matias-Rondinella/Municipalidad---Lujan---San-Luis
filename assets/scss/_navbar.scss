@@ -171,7 +171,7 @@
           }
 
           .nav-link {
-            padding-right: $navbar-nav-link-padding-x;
+            // padding-right: $navbar-nav-link-padding-x;
             padding-left: $navbar-nav-link-padding-x;
           }
         }
@@ -359,7 +359,7 @@ header{
   .navBar-ul {
     width: 100%;
     justify-content: flex-end;
-    .navBar-li .navBar-li__link{
+    .navBar-li .navBar-li__link {
       font-family: 'Nunito', sans-serif;
       font-size: 20px;
       color: white;
